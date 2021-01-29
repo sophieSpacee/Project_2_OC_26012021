@@ -11,16 +11,35 @@
     font-family: 'Raleway-Light';
     src: url('Raleway/static/Raleway-Light.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('Raleway/static/Raleway-SemiBold.ttf') format('truetype');
+}
+
 
 
 header
 {
-    padding: 2em;
+    padding: 3em;
 }
 
 .logo
 {
-    height: 3em;
+    height: 2.5em;
+}
+
+.inscription
+{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin-left: 2.3em;
+    color: #0065FC;
+    font-family: 'Raleway-semibold';
+    text-decoration: none;
+    font-size: 0.9em;
 }
 
 nav
@@ -28,18 +47,67 @@ nav
   justify-content: space-around;
   float: right;  
   display: flex;
-  height: 3em;
+  height: 2.5em;
 }
+
 
 nav>a
 {
-    margin-left: 3em;
-    line-height: 3em;
+    line-height: 2.5em;
+    margin-right: 2.3em;
+    margin-left: 2.3em;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: black;
 }
 
 .info
 {
-    margin-left: 2em;
+    margin-left: 3em;
+}
+
+.icon-search
+{
+    background-color: #f2f2f2;
+    width: 3em;
+    height: 3em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.search-container
+{
+    border-radius: 15px;
+    display: flex;
+}
+.search-box
+{
+    padding: 1em;
+    border-color: #f2f2f2;
+    border-width: thin;
+    border-style: solid;
+    margin: 0;
+    width: 16em;
+}
+
+::placeholder
+{
+    color: black;
+    font-family: 'Raleway-Bold'; 
+    font-size: 1.2em;
+}
+
+.search-button
+{
+    background-color: #0065FC;
+    font-size: 1em;
+    width: 8em;
+    margin: 0;
+    border: none;
+    color: white;
+    font-family: 'Raleway-Semibold';
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 body
 {
@@ -55,8 +123,9 @@ section
 h1
 {
     color: black;
-    font-size: 1.4em;
+    font-size: 1.25em;
     font-family: 'Raleway-Bold';
+    margin-bottom: 0em;
 }
 
 h2
@@ -71,7 +140,8 @@ h2
 p
 {
     font-family: 'Raleway';
-    font-size: 1em;
+    font-size: 0.9em;
+    margin-top: 0.5em;
 }
 .grey-back
 {
@@ -92,11 +162,12 @@ p
 }
 .housing-marseille
 {
-    width: 60%;
+    width: 70%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 2em;
-    padding: 2em;
+    margin: 3em;
+    margin-right: 2.5em;
+    padding: 2.4em;
 }
 
 .housing-boxes-container
@@ -108,13 +179,13 @@ p
     border-radius: 20px;
     background-color: white;
     padding: 0.3em;
-    width: 15em;
+    width: 13.5em;
     display: inline-block;
 }
 
 .image-container
 {
-    width: 15em;
+    width: 13.5em;
     height: 7em;
     overflow: hidden;
     border-top-left-radius: 20px;
@@ -148,12 +219,19 @@ p
 
 aside
 {
-    width: 40%;
+    width: 30%;
     padding: 2em;
-    margin: 2em;
+    margin: 3em;
     margin-left: 0;
+    background-color: #F2F2F2;
+    border-radius: 20px;
 }
 
+.activity-section
+{
+    margin: 2em;
+
+}
 .activity-container
 {
     width: 20em;
@@ -205,4 +283,63 @@ span
 {
     font-family: 'Raleway-Bold';
     padding-bottom: 0.5em;
+}
+
+@media all and (max-width: 1024px)
+{
+    header
+    {
+        margin: 0;
+    }
+    .info
+    {
+        margin: 0;
+    }
+    .housing
+    {
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .activity-section
+    {
+        margin: 0;
+    }
+
+    nav
+    {
+        width: auto;
+        margin-top: 0.8em;
+        margin-left: 0;
+        float: left;
+
+    }
+    nav>a
+    {
+        color: #0065FC;
+        text-decoration: none;
+        font-size: 0.9em
+    };
+
+    .housing
+{
+    flex-direction: column;
+    height: 30em;
+    width: 100%;
+}
+
+
+.housing-boxes-container
+{
+    flex-direction: column;
+}
+
+aside
+{
+    width: auto;
+    padding: 2em;
+    margin: 2em;
+}
+
+
 }
