@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway/static/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('Raleway/static/Raleway-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('Raleway/static/Raleway-Light.ttf') format('truetype');
+}
+
+h1
+{
+    color: black;
+    font-size: 22px;
+    font-family: 'Raleway-Bold';
+}
+
+h2
+{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Raleway-Light';
+}
+
+.grey-back
+{
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    margin-top: 2em;
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+/* footer */
+footer
+{
+    background-color: #F2F2F2;
+    font-family: 'Raleway-Light';
+}
+
+.footer-text
+{
+    width: 33%;
+}
