@@ -1,72 +1,84 @@
 <html>
     <head>
-        <!--En-tête de la page-->
         <meta charset="utf-8/">
         <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve.">
         <link rel="stylesheet" href="style.css">
-
         <title>Reservia</title>
     </head>
 
     <body>
-        <!--logo + menu-->
-    
-             <p>
-             <img src="images/logo/Reservia.png" alt="logo Reservia">
-             </p>
-
-        <nav> 
-            <a href="ancre-hebergement">Hébergements</a>
-            <a href="ancre-activites">Activités</a>
-        </nav>
-   
-   
         <header>
-            <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
-
-            <h2>En plein centre ville ou en pleine nature</h2>
+            <img class="logo" src="images/logo/Reservia.png" alt="logo Reservia">
+           <nav> 
+               <a href="#ancre-hebergement">Hébergements</a>
+               <a href="#ancre-activites">Activités</a>
+                <a href="">S'inscrire</a>
+            </nav>
         </header>
+        
+   
+   
+        <div class="info">
+            <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <!--Barre de recherche-->
+            <!--Filtres-->
+            <p>Plus de 500 logements sont disponible dans cette ville</p>
+        </div>
 
     
-        <!--Barre de recherche-->
+        
 
-        <!--Filtres-->
-
-        <!--Icone + Information-->
-
+     
         <!--Hébergements-->
-        <section class="grey-back"> 
-        <h1 id="ancre-hebergement">Hébergements à Marseille</h1>
-        <!-- <a href="images-grand-format"><img src="images-petit-format" alt="Photo de xxx"></a> -->
-        </section>
+        <div class="housing">
+            <section class="housing-marseille" > 
+                <h2 id="ancre-hebergement">Hébergements à Marseille</h1>
+                <div class="housing-boxes-container">
+                    <div class="housing-box">
+                        <div class="image-container"> 
+                            <img class="box-image" src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière">
+                        </div>
+                        <p class="box-title">Auberge La Cannebière</p>
+                        <p class="box-text">Nuit à partir de <span>25€</span></p>
+                        <p>etoile</p>
+                    </div>
+                </div>
+            </section>
 
-        <aside class="grey-back">
-            <h1>Les plus populaires</h1>  
-        </aside>
+            <aside class="grey-back">
+                <h2>Les plus populaires</h1>  
+            </aside>
+
+        </div>
 
         <section> 
         <!--Activités-->
-        <h1 id="ancre-activites">Activités à Marseille</h1>
+        <h2 id="ancre-activites">Activités à Marseille</h1>
+        <div class="activity-container">
+            <img class="activity-image" src="/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+            <p class="description-image">Vieux Port</p>
+        </div>
         </section>
     
     <!--Footer-->
         <footer>
-            <div class="footer">
+            <div class="footer-container">
                 <div class="footer-text">
-                    <p>A propos </p>
+                    <p class="footer-title">A propos </p>
                     <p>Fonctionnement du site</p>
                     <p>Conditions générales de vente</p>
                     <p>Données et confidentialité</p>
                 </div>
 
                 <div class="footer-text">
-                    <p>Nos hébergements </p>
+                    <p class="footer-title">Nos hébergements </p>
                     <p>Charte qualité</p>
                     <p>Soumettre votre hôtel</p>
                 </div>
 
                 <div class="footer-text">
-                    <p> Assistance</p>
+                    <p class="footer-title"> Assistance</p>
                     <p>Centre d'aide</p>
                     <p>Nous contacter</p>               
                  </div>
