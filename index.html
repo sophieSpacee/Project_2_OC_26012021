@@ -4,7 +4,7 @@
         <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve.">
         <link rel="stylesheet" href="style.css">
         <script src="https://use.fontawesome.com/a9ec55184c.js"></script>
-        <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
         <title>Reservia</title>
     </head>
 
@@ -27,13 +27,26 @@
             <div class="search-container"> 
             <p>
                 <div class="icon-search">
-                    <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>               
+                    <i class="fa fa-map-marker-alt fa-lg" aria-hidden="true"></i>               
                  </div>
                 <input class="search-box" type="search" placeholder="Marseille, France"/>
                 <input class="search-button" type="submit" value="Rechercher"/>
             </p>
             </div>
-            <!--Filtres-->
+            <div class="filter-line">
+               <span class="filter-title">
+                   Filtres
+               </span> 
+               <div class="filter-container">
+                    <div class="filter-box">
+                        <div class="icon-filter">
+                            <i class="fas fa-money-bill-wave"></i> 
+                        </div>
+                        <div class="filter">Économique</div>
+                    </div>
+               </div>
+               
+            </div>
             <i class="fa fa-heart" aria-hidden="true"></i>
 
             <p>Plus de 500 logements sont disponible dans cette ville</p>
@@ -46,21 +59,119 @@
         <!--Hébergements-->
         <div class="housing">
             <section class="housing-marseille" > 
-                <h2 id="ancre-hebergement">Hébergements à Marseille</h1>
+                <h2 class="inbox" id="ancre-hebergement">Hébergements à Marseille</h2>
                 <div class="housing-boxes-container">
                     <div class="housing-box">
-                        <div class="image-container"> 
-                            <img class="box-image" src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière">
-                        </div>
+                        <div class="housing-image-container" style="background-image: url(/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);">  </div>
                         <p class="box-title">Auberge La Cannebière</p>
                         <p class="box-text">Nuit à partir de <span>25€</span></p>
-                        <p>etoile</p>
+                        <div class="star-container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span class="star-no">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="housing-box">
+                        <div 
+                            class="housing-image-container" 
+                            style="background-image: url(/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);"
+                        >  
+                        </div>
+                        <p class="box-title">Hôtel du port</p>
+                        <p class="box-text">Nuit à partir de 52<span>€</span></p>
+                        <div class="star-container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="housing-box">
+                        <div 
+                            class="housing-image-container" 
+                            style="background-image: url(/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);"
+                        >  
+                        </div>
+                        <p class="box-title">Hôtel des mouettes</p>
+                        <p class="box-text">Nuit à partir de 76<span>€</span></p>
+                        <div class="star-container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span class="star-no">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="housing-box">
+                        <div 
+                            class="housing-image-container" 
+                            style="background-image: url(/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);"
+                        >  
+                        </div>
+                        <p class="box-title">Hôtel de la mer</p>
+                        <p class="box-text">Nuit à partir de 46<span>€</span></p>
+                        <div class="star-container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                      
+                            <span class="star-no">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="housing-box">
+                        <div 
+                            class="housing-image-container" 
+                            style="background-image: url(/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);"
+                        >  
+                        </div>
+                        <p class="box-title">Auberge Le Panier</p>
+                        <p class="box-text">Nuit à partir de <span>23€</span></p>
+                        <div class="star-container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span class="star-no">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>                        </div>
+                    </div>
+
+                    <div class="housing-box">
+                        <div 
+                            class="housing-image-container" 
+                            style="background-image: url(/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);"
+                        >  
+                        </div>
+                        <p class="box-title">Hôtel chez Amina</p>
+                        <p class="box-text">Nuit à partir de 96<span>€</span></p>
+                        <div class="star-container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
                     </div>
                 </div>
+                <p class="show-more">Afficher plus</p>
             </section>
 
             <aside>
-                <h2>Les plus populaires</h1>  
+                <h2 class="inbox">Les plus populaires</h1>  
             </aside>
 
         </div>
