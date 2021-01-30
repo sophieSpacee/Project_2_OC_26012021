@@ -1,4 +1,7 @@
 <html>
+
+    <!-- Head -->
+
     <head>
         <meta charset="utf-8/">
         <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve.">
@@ -9,29 +12,34 @@
     </head>
 
     <body>
+
+    <!-- Header -->
+
         <header>
-            <img class="logo" src="images/logo/Reservia.png" alt="logo Reservia">
+            <img class="logo" src="images/logo/Reservia.svg" alt="logo Reservia">
             <a class="inscription" href="">S'inscrire</a>
             <nav> 
                <a href="#ancre-hebergement">Hébergements</a>
                <a href="#ancre-activites">Activités</a>
             </nav>
-                
         </header>
         
+   <!-- Section 1 -->
    
-   
-        <div class="info">
+        <section class="section1">
             <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
             <p>En plein centre ville ou en pleine nature</p>
             <div class="search-container"> 
-            <p>
-                <div class="icon-search">
-                    <i class="fa fa-map-marker-alt fa-lg" aria-hidden="true"></i>               
-                 </div>
-                <input class="search-box" type="search" placeholder="Marseille, France"/>
-                <input class="search-button" type="submit" value="Rechercher"/>
-            </p>
+                <p>
+                    <div class="icon-search">
+                        <i class="fa fa-map-marker-alt fa-lg" aria-hidden="true"></i>               
+                    </div>
+                    <form action="/" method="GET">
+                        <input class="search-box" type="search" placeholder="Marseille, France"/>
+                        <input class="search-button" type="submit" value="Rechercher"/>    
+                    </form>
+                        
+                </p>
             </div>
             <div class="filter-line">
                <span class="filter-title">
@@ -44,19 +52,35 @@
                         </div>
                         <div class="filter">Économique</div>
                     </div>
+                    <div class="filter-box">
+                        <div class="icon-filter">
+                            <i class="fas fa-child fa-lg"></i> 
+                        </div>
+                        <div class="filter">Familial</div>
+                    </div>
+                    <div class="filter-box">
+                        <div class="icon-filter">
+                            <i class="fa fa-heart" aria-hidden="true"></i> 
+                        </div>
+                        <div class="filter">Romantique</div>
+                    </div>
+                    <div class="filter-box">
+                        <div class="icon-filter">
+                            <i class="fas fa-dog fa-lg"></i> 
+                        </div>
+                        <div class="filter">Animaux autorisés</div>
+                    </div>
+                   
                </div>
                
             </div>
-            <i class="fa fa-heart" aria-hidden="true"></i>
+            
 
             <p>Plus de 500 logements sont disponible dans cette ville</p>
-        </div>
-
-    
-        
+        </section>
 
      
-        <!--Hébergements-->
+    <!--Section 2-->
         <div class="housing">
             <section class="housing-marseille" > 
                 <h2 class="inbox" id="ancre-hebergement">Hébergements à Marseille</h2>
@@ -176,6 +200,7 @@
 
         </div>
 
+    <!-- Section 3 -->
         <section class="activity-section">        
         <h2 id="ancre-activites">Activités à Marseille</h1>
         <div class="activity-container">
