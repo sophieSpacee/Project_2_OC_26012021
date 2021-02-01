@@ -1,0 +1,55 @@
+@media all and (max-width: 1024px)
+{
+    header
+    {
+        margin: 0;
+    }
+    .info
+    {
+        margin: 0;
+    }
+    .housing
+    {
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .activity-section
+    {
+        margin: 0;
+    }
+
+    nav
+    {
+        width: auto;
+        margin-top: 0.8em;
+        margin-left: 0;
+        float: left;
+
+    }
+    nav>a
+    {
+        color: #0065FC;
+        text-decoration: none;
+        font-size: 0.9em
+    };
+
+    .housing
+{
+    flex-direction: column;
+    height: 30em;
+    width: 100%;
+}
+
+
+.housing-boxes-container
+{
+    flex-direction: column;
+}
+
+aside
+{
+    width: auto;
+    padding: 2em;
+    margin: 2em;
+}
