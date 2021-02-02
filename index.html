@@ -7,7 +7,7 @@
         <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" media="screen and (max-width=768px)" href="smartphone.css">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="smartphone.css">
         <script src="https://use.fontawesome.com/a9ec55184c.js"></script>
         <link rel="stylesheet" href="fontawesome/css/all.css">
         <title>Reservia</title>
@@ -32,17 +32,17 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
             <p>En plein centre ville ou en pleine nature</p>
             <div class="search-container"> 
-                <p>
                     <div class="icon-search">
                         <i class="fa fa-map-marker-alt fa-lg" aria-hidden="true"></i>               
                     </div>
                     <form action="/" method="GET">
                         <input class="search-box" type="search" placeholder="Marseille, France"/>
-                        <input class="search-button" type="submit" value="Rechercher"/>    
-                    </form>
-                        
-                </p>
+                        <button class="search-button" type="submit">Rechercher</button>
+                        <button class="search-button-smartphone" type="submit"><i class="fas fa-search fa-lg"></i></button>
+                    </form>  
             </div>
+
+
             <div class="filter-line">
                <span class="filter-title">
                    Filtres
@@ -266,7 +266,7 @@
 
     <!-- Section 3 -->
 
-        <section class="activity-section">    
+        <section class="section3">    
             <div class="activity-Marseille">
                 <h2 id="ancre-activites">Activités à Marseille</h2>
                 <div class="activity-container">
