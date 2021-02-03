@@ -1,12 +1,12 @@
-#Reservia project
+# Reservia project
 
 Reservia is a website for holiday housing research.
 
-##Visualization
+## Visualization
 
 You can visualize the website on the following link : [Reservia](https://sophiespacee.github.io/Reservia/)
 
-##Project structure
+## Project structure
 
 Reservia project has 2 folders : Style and Images.
 
