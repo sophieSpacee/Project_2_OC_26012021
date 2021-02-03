@@ -124,7 +124,7 @@ form
     display: flex;
     margin-top: 1em;
     border: 1px solid #f2f2f2;
-    width: 26em;
+    width: max-content;
 }
 
 .search-box
@@ -293,6 +293,12 @@ h2
 .housing-marseille>h2
 {
     margin-left: 1em;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
 }
 
 .housing
