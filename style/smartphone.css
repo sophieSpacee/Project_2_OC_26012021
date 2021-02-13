@@ -23,6 +23,7 @@ nav > a {
   height: 2.5em;
   line-height: 2.5em;
   color: black;
+  border-bottom: 3px solid #f2f2f2;
 }
 
 nav > a:hover {

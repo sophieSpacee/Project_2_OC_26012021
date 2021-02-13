@@ -63,7 +63,7 @@ nav > a {
   color: black;
 }
 
-nav > a:focus {
+nav > a:hover {
   border-top: 1.5px solid #0065fc;
   color: #0065fc;
 }
