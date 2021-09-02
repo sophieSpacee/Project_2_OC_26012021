@@ -1,10 +1,14 @@
-# Reservia project
+# Reservia project 
 
 Reservia is a website for holiday housing research.
 
 ## Visualization
 
 You can visualize the website on the following link : [Reservia](https://sophiespacee.github.io/Reservia/)
+
+## Project Goal
+
+This first project is part of my online course to become a full stack developer. It consists on transforming a website mockup into an actual website by only using HTML and CSS. 
 
 ## Project structure
 
