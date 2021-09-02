@@ -1,4 +1,4 @@
-# Reservia project 
+# Reservia project  - Projet 2 of Web Developper course with OpenClassrooms
 
 Reservia is a website for holiday housing research.
 
