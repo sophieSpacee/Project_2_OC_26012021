@@ -6,6 +6,18 @@ Reservia is a website for holiday housing research.
 
 You can visualize the website on the following link : [Reservia](https://sophiespacee.github.io/Project_2_OC_26012021/)
 
+## Project Walkthrough
+
+The website is fully responsive, and the mock up was respected. 
+
+![pc](/images/readme/pc1.png)
+![pc](/images/readme/pc2.png)
+
+![ipad1](/images/readme/ipad1.png)
+![ipad2](/images/readme/ipad2.png)
+![iphone](/images/readme/iphone.png)
+
+
 ## Project Goal
 
 This first project is part of my online course to become a full stack developer. It consists on transforming a website mockup into an actual website by only using HTML and CSS. 
