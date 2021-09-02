@@ -20,12 +20,12 @@ On a computer:
   
 ![pc](/images/readme/pc1.png)
 ![pc](/images/readme/pc2.png)
-//
+  
 On an ipad:   
   
 ![ipad1](/images/readme/ipad1.png)
 ![ipad2](/images/readme/ipad2.png)
-//
+  
 On an iphone 5:   
   
 ![iphone](/images/readme/iphone.png)
