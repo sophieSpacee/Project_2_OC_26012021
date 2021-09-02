@@ -4,7 +4,7 @@ Reservia is a website for holiday housing research.
 
 ## Visualization
 
-You can visualize the website on the following link : [Reservia](https://sophiespacee.github.io/Reservia/)
+You can visualize the website on the following link : [Reservia](https://sophiespacee.github.io/SophieGauthier_2_26012021/)
 
 ## Project Goal
 
